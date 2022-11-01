@@ -34,7 +34,9 @@ Create a Django-Python-MySQL app to allow users to choose answers from a questio
 - Welcome screen
 ![Main screen](https://github.com/codeitamarjr/Y3S1djangoAuthExercise/blob/master/screens/1-mail%20screen.png?raw=true)
 - List of Polls
-![Polls screen]Polls Results in Polls Result screen](<https://github.com/codeitamarjr/Y3S1djangoAuthExercise/blob/master/screens/6-result%20screen.png?raw=true>)
+![Polls screen](https://github.com/codeitamarjr/Y3S1djangoAuthExercise/blob/master/screens/1-polls%20screen.png?raw=true)
+- Polls Result
+![Polls Result screen](https://github.com/codeitamarjr/Y3S1djangoAuthExercise/blob/master/screens/6-result%20screen.png?raw=true)
 - Login Page
 ![Login screen](https://github.com/codeitamarjr/Y3S1djangoAuthExercise/blob/master/screens/3-login%20screen.png?raw=true)
 - Welcome User
