@@ -1,0 +1,25 @@
+<!-- templates/registration/login.html -->
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+    <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Login Page</h1>
+    <div class="col-lg-6 mx-auto">
+
+    <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Log In</button>
+    </form>
+
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="{% url 'password_reset' %}" class="btn btn-primary btn-lg px-4 gap-3">Reset Password</a>
+      </div>
+
+    </div>
+    </div>
+
+{% endblock %}
