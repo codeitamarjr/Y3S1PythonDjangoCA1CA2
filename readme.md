@@ -15,16 +15,20 @@ The main screen is showing the welcome page:
 This section uses a file base.html in the templates folder to be the base template of all HTML files.
 I am using Bootstrap to save time on the CSS, and the CSS is loaded from an official CDN.
 All the remaining pages are extensions of the base.html file.
-On this page, the user is required to log in to see polls and vote.
+On this page, the user is required to log in to see polls and vote(The user can see the link but it is protected by one if statement checking if the user is logged in).
+
+- Index page: This page is the home page of the website. It is showing the welcome message and the login form that is saved in the home.html file in the templates folder.
 
 - Log-in system
-The log-in system uses the built-in user authentication system provided by Django, with custom log-in, log-out, create and recovery password pages merged with the Bootstrap template.
+The log-in system uses the built-in user authentication system provided by Django, with custom log-in, log-out, create and recovery password pages merged with the Bootstrap template, this HMTL file is located inside registration in the templates folder, the log-in form is customized to be more user-friendly.
 
 - Polls system
 The poll system shows the user the polls and their answer, the user can vote and see the results, also the total number of votes.
+This last method is using the built-in Django aggregation method to get the total number of votes, which sums the number of votes for each poll.
+The poll templates are saved inside the polls folder in the templates folder and they use the base.html file as the base template, as per the Log-in system.
 
 - Top Bar
-This bar is from the Bootstrap examples and the icons changes based on the session( If the user is logged in the menu changes showing the log-out option and the user name, alongside a profile example picture).
+This bar is from the Bootstrap examples and the icons changes based on the session( If the user is logged in the menu changes showing the log-out option and the user name, alongside a profile example picture, if the user is not logged in it shows the log-in button and the sign-up button).
 
 ## Project
 
