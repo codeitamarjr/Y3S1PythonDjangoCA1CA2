@@ -5,21 +5,35 @@ This is an assessment mini-project of Back-End Web Development as part of a BSc 
 ## Features
 
 - Polls: See the list of polls, vote and see the results, part I of the project ( I have used the Django tutorial as a base for this project), on this task I performed the application of the following concepts: Create the pull model
+
   Create the pull view
-  Create of the pull template
-  Create of the pull URL
-  Create of the pull admin
-  Create, read, update and delete of the pull model
+
+  Create the pull template
+
+  Create the pull URL
+
+  Create the pull admin
+
+  Create, read, update and delete the pull model
 
 - Log in, log out, create a user, and recover the password, part II of the project, on this task I performed the application of the following concepts:
+
   Create the user model
+
   Create the user view
+
   Create the user template
+
   Create the user URL
-  Create of the user admin
-  Create, read, update and delete of the user model
+
+  Create the user admin
+
+  Create, read, update and delete the user model
+
   Added the login, logout, password reset and password change views
+
   Implemented the login, logout, password reset and password change templates
+
   Added the login, logout, password reset and password change URLs
 
 ## Roadmap
