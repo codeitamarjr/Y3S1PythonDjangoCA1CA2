@@ -6,7 +6,7 @@ This is an assessment mini-project of Back-End Web Development as part of a BSc 
 
 - Polls: See the list of polls, vote and see the results, part I of the project ( I have used the Django tutorial as a base for this project), on this task I performed the application of the following concepts: Create the pull model
 
-  Create the pull view
+  Create the pull view ( Showing the results and the total number of votes for each choice)
 
   Create the pull template
 
@@ -35,6 +35,8 @@ This is an assessment mini-project of Back-End Web Development as part of a BSc 
   Implemented the login, logout, password reset and password change templates
 
   Added the login, logout, password reset and password change URLs
+
+  Added the NAVBAR to the base template, and the login, logout, password reset and password change links
 
 ## Roadmap
 
