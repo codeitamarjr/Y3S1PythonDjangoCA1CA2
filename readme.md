@@ -1,6 +1,7 @@
 # Django Project
 
 This is an assessment mini-project of Back-End Web Development as part of a BSc in Computing at Dorset College. 11/2022
+On the update, I added the unit tests of URL and Models, to test if the views works and if the models are working as well.
 
 ## Features
 
@@ -37,6 +38,15 @@ This is an assessment mini-project of Back-End Web Development as part of a BSc 
   Added the login, logout, password reset and password change URLs
 
   Added the NAVBAR to the base template, and the login, logout, password reset and password change links
+
+## Unittest
+
+The models test:
+Create a Question using set-up, use Django reverse to test the view ane finally I use the assertEqual to check if the response is 200.
+The url test:
+Check if the views return the expected HTTP response.
+The view test:
+Create a Question using set-up and use the assertEqual to test the response.
 
 ## Roadmap
 
