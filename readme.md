@@ -39,14 +39,19 @@ On the update, I added the unit tests of URL and Models, to test if the views wo
 
   Added the NAVBAR to the base template, and the login, logout, password reset and password change links
 
-## Unittest
+## Unit Test
 
 The models test:
 Create a Question using set-up, use Django reverse to test the view ane finally I use the assertEqual to check if the response is 200.
-The url test:
+The URL test:
 Check if the views return the expected HTTP response.
 The view test:
 Create a Question using set-up and use the assertEqual to test the response.
+
+## Security
+
+Using the redirect to detail.html on poll to implement the redirect to the results page after the user votes.
+Using CSRF token to protect the form from CSRF attacks.
 
 ## Roadmap
 
